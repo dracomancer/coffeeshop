@@ -1,0 +1,86 @@
+/* General container styles */
+.payment-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.payment-container h2 {
+  margin-bottom: 20px;
+}
+
+.payment-summary {
+  margin-bottom: 20px;
+  font-size: 18px;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+/* Form group */
+.payment-form .form-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  margin-bottom: 10px;
+  display: block;
+  font-weight: bold;
+}
+
+/* Button group */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+/* Payment box styles */
+.payment-box {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.payment-box:hover {
+  border-color: #007bff;
+  background-color: #f0f8ff;
+}
+
+.payment-box.selected {
+  border-color: #007bff;
+  background-color: #007bff;
+  color: white;
+}
+
+/* Submit button */
+.submit-button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}

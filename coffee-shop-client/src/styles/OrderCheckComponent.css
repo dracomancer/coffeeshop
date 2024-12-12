@@ -1,0 +1,80 @@
+/* src/styles/OrderCheckComponent.css */
+
+.order-check-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.order-check-container h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1.2rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+.error-message {
+  color: green;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.order-details {
+  margin-top: 20px;
+}
+
+.order-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.order-details p {
+  font-size: 1.2rem;
+}
+
+.order-details ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.order-details ul li {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
